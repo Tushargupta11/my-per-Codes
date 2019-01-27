@@ -1,0 +1,54 @@
+1.Select * from emp_data where empno = 3;
+
+2.Select * from emp_data where empno = 3 or empno=5;
+
+3.select * from emp_data where salary>5000;
+
+4.select *from emp_data where salary between 10000 and 25000;
+
+5.select * from emp_data where ename like 'p%';
+
+6.select * from emp_data where ename like '%y';
+
+7.select *from emp_data where ename like '_e%';
+
+8.select *from emp_data where ename like '%o%';
+
+9.select * from emp_data where dept_no =10 or dept_no=30;
+
+10.select * from emp_data where dept_no in (10,20,30);
+
+11. alter table emp_data add comission int(5) default null;
+
+12.select * from emp_data where comission is null;
+
+13.select 10*salary/100+salary from emp_data;
+
+14.select dept_no from emp_data where dept_no not in(10,30,50);
+
+15.select count(*) from emp_data;
+
+16.select distinct dept_no from emp_data;
+
+17.select * from emp_data where salary>(select avg(salary) from emp_data);
+
+18. for max salary
+--> select max(salary) from emp_data;
+    for min salary
+--> select min(salary) from emp_data;
+
+19. alter table emp_data add email_id varchar(20);
+
+20. update emp_data set email_id='abc@abc.abc' where empno=3; 
+
+21. create table emp_data1 as select * from emp_data;
+
+22.truncate table emp_data1;
+
+23.delete from emp_data1 where dept_no=10; 
+
+24.drop table emp_data1;
+
+25.delete cmd is used to delete any column from table is this cmd can be
+   rollback whereas on the other hand truncate cmd is used to delete the complete data
+   from table but if once data is delete this data can not be rollback (restored ) once deleted never gets restored.

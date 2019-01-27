@@ -1,0 +1,133 @@
+
+			core java
+
+Introduction to java
+
+control statements
+
+object and class
+
+constructor
+
+static and non static
+
+polymorphism
+    method overloading
+    method over riding
+
+inheritence
+
+
+
+constructor
+
+
+   constructor is used to initialise the instence
+   variable
+
+
+   constructor name shoud be same as the class name
+   constructor will not return any value
+   constructor will be called automaticaly when
+   the object is creted
+
+   two type
+   defacult constructor
+   parametarised constructor
+
+
+
+    this is the keyword - is used to refer the current object(instence variable, method)
+
+
+
+polymorphism
+
+method overloading -static biding
+
+- method name are same
+  parameter are different
+
+
+   
+method overriding -dynamic binding
+ - signature is same
+ - parameter is also same
+   - during inheritence
+
+
+   
+
+inheritence
+
+
+
+acquring the properties and the method from the existing class to the new class is called inheritance
+
+
+
+
+    class A
+
+        int x
+ 
+        disp()
+
+         {
+          }
+
+   class b extends A
+
+        int y
+        print()
+{
+}
+
+    main
+       b b1 new b
+
+       b1.x
+       b1.y
+       b1.disp()
+       b1.print()
+
+
+       
+we dont have multiple inheritance
+
+simple
+
+
+multilevel
+
+
+
+
+
+ 
+constructor behavier in inheritence
+
+
+
+ 
+
+     
+
+
+
+
+
+   
+
+
+
+  
+
+
+
+
+
+
+
+
+

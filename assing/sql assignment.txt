@@ -1,0 +1,24 @@
+1. fetch data of employ with emp no 3.
+2. emp no 3 & 5
+3. salary >5000
+4. between 3000 and 6000
+5. name start with p
+6. second alp e
+7. last alphabet y
+8. o anywhere <-- fetch name
+9. dept 10 & 30 <-- fetch data
+10. dept 10 30 50 (use in keyword)
+11. insert row with commission null
+12 fetch data of people with commission null
+13 salary 10% increase sabka
+14 fetch data of people who are not in 10 20 50 (dont use relational operator)
+15 count no of rows
+16 fetch unique dept no.
+17 fetch data of person salary greater than avg salary(nested query)
+18 max and min salary
+19 add column email id
+20 after adding email id column input email id with emp no 3 as abc@abc.abc
+20 A. Make replica of emp table without using conventional way to create table
+21. delete data of all person with dept no 10 on replica
+22. delete table on replica
+23. difference btw delete and truncate
